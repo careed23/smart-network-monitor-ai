@@ -327,13 +327,7 @@ Network Administrator | Full-Stack Developer | AI Enthusiast
 - 💼 LinkedIn: [https://www.linkedin.com/in/colten-reed-8395b6389/](#)
 - 🐙 GitHub: [@careed23](https://github.com/careed23)
 - 📧 Email: careed23@outlook.com
-
----
-
-## 🌟 Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=careed23/smart-network-monitor-ai&type=Date)](https://star-history.com/#YOUR-USERNAME/smart-network-monitor-ai&Date)
-
+  
 ---
 
 ## 💬 Acknowledgments
