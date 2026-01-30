@@ -19,6 +19,8 @@
 
 Smart Network Monitor AI is a next-generation network monitoring solution that combines real-time device tracking with artificial intelligence to predict and prevent network issues before they impact operations. Built for network administrators who want to move from reactive to proactive infrastructure management.
 
+**Cloud Architecture Note**: The current implementation is a frontend-only dashboard with simulated data. The `/docs` folder captures the target cloud reference architecture and deployment approach.
+
 ### 🎯 Problem It Solves
 
 - **Manual Monitoring is Inefficient**: Traditional monitoring requires constant human attention
