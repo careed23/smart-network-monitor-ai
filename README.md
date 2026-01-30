@@ -307,9 +307,9 @@ in the Software without restriction...
 
 **[Colten A. Reed]**
 
-Network Administrator | Full-Stack Developer | AI Enthusiast
+Cloud Architect | Security+ Professional | IT Support Specialist
 
-- 💼 LinkedIn: [https://www.linkedin.com/in/colten-reed-8395b6389/](#)
+- 💼 LinkedIn: [https://www.linkedin.com/in/coltenreed/](#)
 - 🐙 GitHub: [@careed23](https://github.com/careed23)
 - 📧 Email: careed23@outlook.com
   
