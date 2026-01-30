@@ -1,6 +1,7 @@
+<div align="center">
+  
 # 🌐 Smart Network Monitor AI
 
-<div align="center">
 
 ![Network Monitoring](https://img.shields.io/badge/Network-Monitoring-blue?style=for-the-badge&logo=cisco)
 ![AI Powered](https://img.shields.io/badge/AI-Powered-green?style=for-the-badge&logo=tensorflow)
