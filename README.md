@@ -232,22 +232,6 @@ Contributions are welcome! Here's how you can help:
 
 ---
 
-## 📸 Screenshots
-
-### Main Dashboard
-![Dashboard Overview](./public/screenshots/dashboard.png)
-
-### AI Insights Panel
-![AI Insights](./public/screenshots/ai-insights.png)
-
-### Alert System
-![Active Alerts](./public/screenshots/alerts.png)
-
-### Device Monitoring
-![Device Grid](./public/screenshots/devices.png)
-
----
-
 ## 🧪 Testing
 
 ```bash
