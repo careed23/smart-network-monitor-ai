@@ -6,6 +6,10 @@ on:
   pull_request:
     branches: [main]
 
+# Restrict GITHUB_TOKEN to the minimum required permissions for a read-only CI job
+permissions:
+  contents: read
+
 jobs:
   ci:
     name: Lint, Format & Test
