@@ -166,18 +166,44 @@ npm run preview
 smart-network-monitor-ai/
 │
 ├── src/
-│   ├── App.jsx              # Main dashboard component
-│   ├── main.jsx             # React entry point
-│   └── index.css            # Global styles & Tailwind
+│   ├── __tests__/           # Vitest + React Testing Library tests
+│   ├── components/          # Presentational React components
+│   │   ├── DashboardHeader.jsx
+│   │   ├── DeviceCard.jsx
+│   │   ├── AlertPanel.jsx
+│   │   ├── MetricsChart.jsx
+│   │   └── AnomalyFeed.jsx
+│   ├── hooks/
+│   │   └── useNetworkData.js  # Z-score anomaly detection + polling
+│   ├── services/
+│   │   ├── api.js             # API abstraction layer
+│   │   └── mock-api.js        # SNMP-style mock backend
+│   ├── config.js              # App-wide constants (thresholds, intervals)
+│   ├── App.jsx                # Root layout component
+│   ├── main.jsx               # React entry point
+│   └── index.css              # Global styles & Tailwind
 │
-├── public/                  # Static assets
-│   └── screenshots/         # Dashboard images
+├── docs/                    # Documentation stubs
+│   ├── ARCHITECTURE.md
+│   ├── API.md
+│   ├── DEPLOYMENT.md
+│   └── AI_MODELS.md
 │
+├── .github/
+│   └── workflows/
+│       └── ci.yml           # ESLint + Prettier + Vitest + build CI
+│
+├── .env.example             # All environment variables documented
+├── Dockerfile               # Multi-stage production build
+├── docker-compose.yml       # Single-command container setup
+├── SECURITY.md              # Responsible disclosure policy
 ├── index.html               # HTML entry point
 ├── package.json             # Dependencies & scripts
-├── vite.config.js           # Vite configuration
+├── vite.config.js           # Vite + Vitest configuration
 ├── tailwind.config.js       # Tailwind setup
-└── README.md               # This file
+├── eslint.config.js         # ESLint configuration
+├── .prettierrc              # Prettier configuration
+└── README.md                # This file
 ```
 
 ---
@@ -234,17 +260,20 @@ Contributions are welcome! Here's how you can help:
 ## 🧪 Testing
 
 ```bash
-# Run unit tests
+# Run unit tests (Vitest)
 npm test
 
-# Run integration tests
-npm run test:integration
-
-# Run E2E tests
-npm run test:e2e
+# Run tests in watch mode
+npm run test:watch
 
 # Generate coverage report
 npm run test:coverage
+
+# Run linter
+npm run lint
+
+# Check Prettier formatting
+npm run format:check
 ```
 
 ---
@@ -257,7 +286,7 @@ Detailed documentation is available in the `/docs` folder:
 - [API Reference](./docs/API.md)
 - [Deployment Guide](./docs/DEPLOYMENT.md)
 - [AI Model Documentation](./docs/AI_MODELS.md)
-- [Contributing Guide](./docs/CONTRIBUTING.md)
+- Contributing Guide — documentation in progress
 
 ---
 
